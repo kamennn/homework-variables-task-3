@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //седьмая задача//
+        //задача 6//
         var boxer1 = 78.2;
         var boxer2 = 82.7;
         System.out.println(boxer1);
@@ -9,9 +9,10 @@ public class Main {
         System.out.println(TotalWeight);
         var WeightDifference = boxer1 - boxer2;
         System.out.println(WeightDifference);
+        //задача 7//
         var WeightDifference2 = boxer2 % boxer1;
         System.out.println(WeightDifference2);
-        //восьмая задача//
+        //задача 8//
         var TotalHours = 640;
         var OneEmployee = 8;
         System.out.println(TotalHours);
