@@ -21,7 +21,7 @@ public class Main {
         System.out.println("Всего работников в компании " + TotalEmployees + " человек");
         var MoreWorkers = TotalEmployees + 94;
         System.out.println(MoreWorkers);
-        var TotalHours2 = TotalHours / MoreWorkers;
+        var TotalHours2 = OneEmployee * MoreWorkers;
         System.out.println("Если в компании работает " + MoreWorkers + " человек, то всего " + TotalHours2 + " часа работы может быть поделено между сотрудниками");
     }
 }
